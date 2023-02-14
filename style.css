@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bannerText{
+    font-size: 65px;    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.d1{
+    width: 50%;
+}
+.d2{
+    width: 50%;
+}
+
+.bannerParagraph{
+    font-weight: 500;
+}
+.b1{
+    background-color: #ff2f13;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.b1p1{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.d3{
+    position: relative;
+    
+}
+.d4{
+    display: flex;
+    align-items: center;
+    position :absolute;
+    margin-top: -80px;
+    background-color: white;
+    padding: 10px 15px 15px 10px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 2px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    line-height: 20px;
+}
+
+.d5{
+    height: 70px;
+}
+
+.iconStar{
+    font-size: 30px;
+    color:#ffdc64;
+    margin-right: 10px;
+}
+.d4h2{
+    line-height: 0px;
+}
+
+.bannerImage{
+    width:95%;
+    height: 95%;
+}
+    
