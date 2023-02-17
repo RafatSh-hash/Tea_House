@@ -125,4 +125,74 @@ body{
 .teap{
     text-align: center;
 }
+
+.gtMain{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.gtImages{
+    width : 50%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
+}
+.I1{
+    width: 180px;
+    height : 110px;
+    background: rgb(255,232,232);
+    background: linear-gradient(90deg, rgba(255,232,232,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+}
+.I2{
+    width: 180px;
+    height : 280px;
+    background: rgb(255,242,242);
+    background: linear-gradient(90deg, rgba(255,242,242,1) 0%, rgba(255,244,244,1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center; 
+}
+.I2i1{
+    width : 95%;
+    height: 85%;
+    align-items: center;
+     
+}
+.I3{
+    width: 180px;
+    height : 280px;
+    background: rgb(237,220,252);
+    background: linear-gradient(90deg, rgba(237,220,252,1) 0%, rgba(238,232,245,1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: -170px;
+    text-align: center; 
+}
+.I4{
+    width: 180px;
+    height : 100px;
+    background: rgb(237,220,252);
+    background: linear-gradient(90deg, rgba(237,220,252,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 10px;
+    margin: 10px;
+}
+.gtText{
+    width : 50%;
+    padding: 20px;
+
+}
+.gtTexth4{
+    line-height: 10px;
+}
+    
+
