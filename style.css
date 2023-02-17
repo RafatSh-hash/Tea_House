@@ -165,7 +165,8 @@ body{
 .I2i1{
     width : 95%;
     height: 85%;
-    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
      
 }
 .I3{
@@ -195,4 +196,77 @@ body{
     line-height: 10px;
 }
     
+.customerMain{
+    width: 80%;
+    margin: 40px auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(255,47,19);
+    background: linear-gradient(90deg, rgba(255,47,19,1) 0%, rgba(255,191,126,1) 100%);
+    padding: 3rem 3rem;
+}
 
+.customerText{
+    width : 50%;
+}
+.c-button{
+    background-color: white;
+    padding: 20px 10px 15px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255,47,19);
+    margin-top: 10px;
+    border: 2px solid #fff;
+}
+.c-button:hover{
+    background-color: rgb(255,47,19);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid black;
+    
+
+}
+
+
+.customerText button{
+    background: white;
+    color : rgb(255,47,19);
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+.coments{
+    width: 50%;
+    position: initial;
+}
+.c-img{
+    width: 70%;
+}
+.c-img img{
+    width: 100%;
+    height: auto;
+}
+#img1{
+    margin-bottom: -150px;
+    margin-left: 200px;
+    opacity: 0.2;
+    position: relative;
+    z-index: 0;
+}
+#img3{
+    margin-top: -120px;
+    margin-left: 160px;
+    opacity: 0.3;
+    position: relative;
+    z-index: 0;
+}
+#img2{
+    position: relative;
+    z-index: 1;
+}
